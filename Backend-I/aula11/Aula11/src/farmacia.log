@@ -1,0 +1,22 @@
+18/11/2022 20:36:53 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:36:54 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:36:54 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:37:52 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:37:53 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:37:53 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:38:40 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:38:41 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:38:41 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:39:00 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:39:01 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:39:01 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:40:54 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:40:55 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:40:55 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:48:22 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:30 - Abrindo conexão
+18/11/2022 20:48:23 [main] ERROR com.dh.farmacia.dao.impl.MedicamentosDaoH2:41 - Erro no banco de dados
+18/11/2022 20:48:23 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:44 - Fechando conexão
+18/11/2022 20:51:24 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:33 - Abrindo conexão
+18/11/2022 20:51:25 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:47 - Fechando conexão
+18/11/2022 20:51:59 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:33 - Abrindo conexão
+18/11/2022 20:52:00 [main]  INFO com.dh.farmacia.dao.impl.MedicamentosDaoH2:47 - Fechando conexão

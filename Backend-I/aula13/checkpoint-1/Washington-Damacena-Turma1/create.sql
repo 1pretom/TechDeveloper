@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS hoteis(
+id INT auto_increment PRIMARY KEY,
+nome_filial VARCHAR(225) NOT NULL,
+rua VARCHAR(100) NOT NULL,
+numero VARCHAR(30) NOT NULL,
+cidade VARCHAR(20) NOT NULL,
+estado VARCHAR(20) NOT NULL,
+cinco_estrelas  VARCHAR (1)  NOT NULL
+);

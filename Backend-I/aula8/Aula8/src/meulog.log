@@ -1,0 +1,12 @@
+16/11/2022 16:14:28 [main]  INFO model.Leao:54 - O leão Simba está correndo
+16/11/2022 16:14:28 [main]  INFO model.Leao:59 - O leão Simba é maior que 10 anos
+16/11/2022 16:14:28 [main]  INFO model.Tigre:41 - O tigre está correndo
+16/11/2022 16:14:28 [main] ERROR model.Tigre:50 - A idade não pode ser negativa
+16/11/2022 16:15:54 [main]  INFO model.Leao:54 - O leão Simba está correndo
+16/11/2022 16:15:54 [main]  INFO model.Leao:59 - O leão Simba é maior que 10 anos
+16/11/2022 16:15:54 [main]  INFO model.Tigre:41 - O tigre está correndo
+16/11/2022 16:15:54 [main] ERROR model.Tigre:50 - A idade não pode ser negativa
+16/11/2022 16:17:54 [main]  INFO model.Leao:54 - O leão Simba está correndo
+16/11/2022 16:17:54 [main]  INFO model.Leao:59 - O leão Simba é maior que 10 anos
+16/11/2022 16:17:54 [main]  INFO model.Tigre:41 - O tigre está correndo
+16/11/2022 16:17:54 [main] ERROR model.Tigre:50 - A idade não pode ser negativa

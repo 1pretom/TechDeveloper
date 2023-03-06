@@ -1,0 +1,137 @@
+16/11/2022 18:33:37 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 18:33:38 [main]  INFO Main:50 - Criando tabela no banco de dados
+16/11/2022 18:33:38 [main]  INFO Main:57 - Fechando conexão com o banco de dados
+16/11/2022 18:50:10 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 18:50:11 [main]  INFO Main:50 - Criando tabela no banco de dados
+16/11/2022 18:50:11 [main]  INFO Main:57 - Fechando conexão com o banco de dados
+16/11/2022 22:04:01 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:04:02 [main]  INFO Main:50 - Criando tabela no banco de dados
+16/11/2022 22:04:02 [main]  INFO Main:53 - Inserindo animais
+16/11/2022 22:04:02 [main] ERROR Main:58 - Erro ao executar SQL
+16/11/2022 22:04:02 [main]  INFO Main:62 - Fechando conexão com o banco de dados
+16/11/2022 22:05:40 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:05:41 [main] ERROR Main:58 - Erro ao executar SQL
+16/11/2022 22:06:25 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:06:25 [main] ERROR Main:59 - Erro ao executar SQL
+16/11/2022 22:08:54 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:08:55 [main] ERROR Main:61 - Erro ao executar SQL
+16/11/2022 22:11:35 [main]  INFO Main:44 - Abrindo conexão com o banco de dados
+16/11/2022 22:11:35 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:13:28 [main]  INFO Main:44 - Abrindo conexão com o banco de dados
+16/11/2022 22:13:28 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:14:04 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:14:04 [main] ERROR Main:58 - Erro ao executar SQL
+16/11/2022 22:14:25 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:14:25 [main] ERROR Main:56 - Erro ao executar SQL
+16/11/2022 22:14:41 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:14:42 [main] ERROR Main:53 - Erro ao executar SQL
+16/11/2022 22:16:14 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:16:15 [main]  INFO Main:50 - Criando tabela no banco de dados
+16/11/2022 22:16:15 [main]  INFO Main:57 - Fechando conexão com o banco de dados
+16/11/2022 22:17:49 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:17:49 [main]  INFO Main:50 - Criando tabela no banco de dados
+16/11/2022 22:17:49 [main]  INFO Main:52 - Inserindo animal 1
+16/11/2022 22:17:49 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:17:49 [main]  INFO Main:67 - Fechando conexão com o banco de dados
+16/11/2022 22:18:56 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:18:57 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:22:15 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:22:15 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:23:10 [main]  INFO Main:47 - Abrindo conexão com o banco de dados
+16/11/2022 22:23:11 [main] ERROR Main:63 - Erro ao executar SQL
+16/11/2022 22:29:50 [main]  INFO Main:48 - Abrindo conexão com o banco de dados
+16/11/2022 22:29:50 [main] ERROR Main:64 - Erro ao executar SQL
+16/11/2022 22:30:17 [main]  INFO Main:48 - Abrindo conexão com o banco de dados
+16/11/2022 22:30:18 [main] ERROR Main:64 - Erro ao executar SQL
+16/11/2022 22:35:31 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:35:32 [main] ERROR Main:61 - Erro ao executar SQL
+16/11/2022 22:40:18 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:40:19 [main] ERROR Main:73 - Erro ao executar SQL
+16/11/2022 22:41:13 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:41:14 [main] ERROR Main:73 - Erro ao executar SQL
+16/11/2022 22:42:35 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:42:36 [main]  INFO Main:48 - Criando tabela no banco de dados
+16/11/2022 22:42:36 [main]  INFO Main:51 - Inserindo animal 1
+16/11/2022 22:42:36 [main]  INFO Main:53 - Inserindo animal 2
+16/11/2022 22:42:36 [main]  INFO Main:55 - Inserindo animal 3
+16/11/2022 22:42:36 [main]  INFO Main:57 - Inserindo animal 4
+16/11/2022 22:42:36 [main]  INFO Main:59 - Inserindo animal 5
+16/11/2022 22:42:36 [main]  INFO Main:85 - Imprimindo animais
+16/11/2022 22:42:36 [main] ERROR Main:73 - Erro ao executar SQL
+16/11/2022 22:42:36 [main]  INFO Main:77 - Fechando conexão com o banco de dados
+16/11/2022 22:50:41 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:50:42 [main]  INFO Main:48 - Criando tabela no banco de dados
+16/11/2022 22:50:42 [main]  INFO Main:51 - Inserindo animal 1
+16/11/2022 22:50:42 [main]  INFO Main:53 - Inserindo animal 2
+16/11/2022 22:50:42 [main]  INFO Main:55 - Inserindo animal 3
+16/11/2022 22:50:42 [main]  INFO Main:57 - Inserindo animal 4
+16/11/2022 22:50:42 [main]  INFO Main:59 - Inserindo animal 5
+16/11/2022 22:50:42 [main]  INFO Main:87 - Imprimindo animais
+16/11/2022 22:50:42 [main] ERROR Main:74 - Erro ao executar SQL
+16/11/2022 22:50:42 [main]  INFO Main:78 - Fechando conexão com o banco de dados
+16/11/2022 22:51:59 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:52:00 [main] ERROR Main:74 - Erro ao executar SQL
+16/11/2022 22:52:16 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:52:16 [main] ERROR Main:74 - Erro ao executar SQL
+16/11/2022 22:52:36 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 22:52:37 [main]  INFO Main:48 - Criando tabela no banco de dados
+16/11/2022 22:52:37 [main]  INFO Main:51 - Inserindo animal 1
+16/11/2022 22:52:37 [main]  INFO Main:53 - Inserindo animal 2
+16/11/2022 22:52:37 [main]  INFO Main:55 - Inserindo animal 3
+16/11/2022 22:52:37 [main]  INFO Main:57 - Inserindo animal 4
+16/11/2022 22:52:37 [main]  INFO Main:59 - Inserindo animal 5
+16/11/2022 22:52:37 [main]  INFO Main:87 - Imprimindo animais
+16/11/2022 22:52:37 [main] ERROR Main:74 - Erro ao executar SQL
+16/11/2022 22:52:37 [main]  INFO Main:78 - Fechando conexão com o banco de dados
+16/11/2022 23:02:39 [main]  INFO Main:45 - Abrindo conexão com o banco de dados
+16/11/2022 23:02:40 [main]  INFO Main:48 - Criando tabela no banco de dados
+16/11/2022 23:02:40 [main]  INFO Main:51 - Inserindo animal 1
+16/11/2022 23:02:40 [main]  INFO Main:53 - Inserindo animal 2
+16/11/2022 23:02:40 [main]  INFO Main:55 - Inserindo animal 3
+16/11/2022 23:02:40 [main]  INFO Main:57 - Inserindo animal 4
+16/11/2022 23:02:40 [main]  INFO Main:59 - Inserindo animal 5
+16/11/2022 23:02:40 [main]  INFO Main:88 - Imprimindo animais
+16/11/2022 23:02:40 [main] ERROR Main:75 - Erro ao executar SQL
+16/11/2022 23:02:40 [main]  INFO Main:79 - Fechando conexão com o banco de dados
+16/11/2022 23:05:40 [main]  INFO Main:57 - Abrindo conexão com o banco de dados
+16/11/2022 23:05:41 [main]  INFO Main:60 - Criando tabela no banco de dados
+16/11/2022 23:05:41 [main]  INFO Main:63 - Inserindo animal 1
+16/11/2022 23:05:41 [main]  INFO Main:65 - Inserindo animal 2
+16/11/2022 23:05:41 [main]  INFO Main:67 - Inserindo animal 3
+16/11/2022 23:05:41 [main]  INFO Main:69 - Inserindo animal 4
+16/11/2022 23:05:41 [main]  INFO Main:71 - Inserindo animal 5
+16/11/2022 23:05:41 [main]  INFO Main:44 - Imprimindo animais
+16/11/2022 23:05:41 [main] ERROR Main:87 - Erro ao executar SQL
+16/11/2022 23:05:41 [main]  INFO Main:91 - Fechando conexão com o banco de dados
+16/11/2022 23:06:52 [main]  INFO Main:57 - Abrindo conexão com o banco de dados
+16/11/2022 23:06:52 [main]  INFO Main:60 - Criando tabela no banco de dados
+16/11/2022 23:06:52 [main]  INFO Main:63 - Inserindo animal 1
+16/11/2022 23:06:52 [main]  INFO Main:65 - Inserindo animal 2
+16/11/2022 23:06:52 [main]  INFO Main:67 - Inserindo animal 3
+16/11/2022 23:06:52 [main]  INFO Main:69 - Inserindo animal 4
+16/11/2022 23:06:52 [main]  INFO Main:71 - Inserindo animal 5
+16/11/2022 23:06:52 [main]  INFO Main:44 - Imprimindo animais
+16/11/2022 23:06:53 [main] ERROR Main:87 - Erro ao executar SQL
+16/11/2022 23:06:53 [main]  INFO Main:94 - Fechando conexão com o banco de dados
+16/11/2022 23:07:30 [main]  INFO Main:37 - Abrindo conexão com o banco de dados
+16/11/2022 23:07:31 [main]  INFO Main:40 - Criando tabela no banco de dados
+16/11/2022 23:07:31 [main]  INFO Main:43 - Inserindo animal 1
+16/11/2022 23:07:31 [main]  INFO Main:45 - Inserindo animal 2
+16/11/2022 23:07:31 [main]  INFO Main:47 - Inserindo animal 3
+16/11/2022 23:07:31 [main]  INFO Main:49 - Inserindo animal 4
+16/11/2022 23:07:31 [main]  INFO Main:51 - Inserindo animal 5
+16/11/2022 23:07:31 [main]  INFO Main:80 - Imprimindo animais
+16/11/2022 23:07:31 [main]  WARN Main:56 - Deletando um animal
+16/11/2022 23:07:31 [main]  INFO Main:80 - Imprimindo animais
+16/11/2022 23:07:31 [main]  INFO Main:71 - Fechando conexão com o banco de dados
+16/11/2022 23:09:43 [main]  INFO Main:56 - Abrindo conexão com o banco de dados
+16/11/2022 23:09:44 [main]  INFO Main:59 - Criando tabela no banco de dados
+16/11/2022 23:09:44 [main]  INFO Main:62 - Inserindo animal 1
+16/11/2022 23:09:44 [main]  INFO Main:64 - Inserindo animal 2
+16/11/2022 23:09:44 [main]  INFO Main:66 - Inserindo animal 3
+16/11/2022 23:09:44 [main]  INFO Main:68 - Inserindo animal 4
+16/11/2022 23:09:44 [main]  INFO Main:70 - Inserindo animal 5
+16/11/2022 23:09:44 [main]  INFO Main:43 - Imprimindo animais
+16/11/2022 23:09:44 [main]  WARN Main:76 - Deletando um animal
+16/11/2022 23:09:44 [main]  INFO Main:43 - Imprimindo animais
+16/11/2022 23:09:44 [main]  INFO Main:93 - Fechando conexão com o banco de dados

@@ -1,0 +1,171 @@
+17/11/2022 17:26:53 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 17:26:54 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 17:26:54 [main]  INFO Main.class:44 - Fechando a conexão com o banco de dados
+17/11/2022 17:45:11 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 17:45:12 [main] ERROR Main.class:51 - Erro ao executar transação
+17/11/2022 17:45:12 [main]  INFO Main.class:54 - Fechando a conexão com o banco de dados
+17/11/2022 17:46:24 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 17:46:24 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 17:46:24 [main]  INFO Main.class:40 - Fazendo primeiro insert
+17/11/2022 17:46:24 [main]  INFO Main.class:47 - Inserindo conta do Daniel
+17/11/2022 17:46:24 [main] ERROR Main.class:51 - Erro ao executar transação
+17/11/2022 17:46:24 [main]  INFO Main.class:54 - Fechando a conexão com o banco de dados
+17/11/2022 17:46:50 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 17:46:51 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 17:46:51 [main]  INFO Main.class:40 - Fazendo primeiro insert
+17/11/2022 17:46:51 [main]  INFO Main.class:47 - Inserindo conta do Daniel
+17/11/2022 17:46:51 [main]  INFO Main.class:54 - Fechando a conexão com o banco de dados
+17/11/2022 17:47:35 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 17:47:35 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 17:47:35 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 17:47:35 [main]  INFO Main.class:47 - Inserindo conta do Daniel
+17/11/2022 17:47:35 [main]  INFO Main.class:54 - Fechando a conexão com o banco de dados
+17/11/2022 18:26:39 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:26:40 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:26:40 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:26:40 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:26:40 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:26:40 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:26:40 [main] ERROR Main.class:73 - Erro ao executar transação
+17/11/2022 18:26:40 [main]  WARN Main.class:75 - Foi executado um roolback das transações
+17/11/2022 18:26:40 [main]  INFO Main.class:78 - Fechando a conexão com o banco de dados
+17/11/2022 18:26:40 [main]  WARN Main.class:79 - O autocommit voltou a ser true
+17/11/2022 18:33:43 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:33:44 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:33:44 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:33:44 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:33:44 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:33:44 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:33:44 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:33:44 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:33:44 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:33:44 [main] ERROR Main.class:73 - Erro ao executar transação
+17/11/2022 18:33:44 [main]  WARN Main.class:75 - Foi executado um roolback das transações
+17/11/2022 18:33:44 [main]  INFO Main.class:78 - Fechando a conexão com o banco de dados
+17/11/2022 18:33:44 [main]  WARN Main.class:79 - O autocommit voltou a ser true
+17/11/2022 18:40:08 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:40:08 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:40:08 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:40:08 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:40:08 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:40:08 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:40:08 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:40:08 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:40:08 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:40:08 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:40:08 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:40:08 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:40:08 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:40:08 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:40:08 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:40:08 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:40:08 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:40:08 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:41:49 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:41:50 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:41:50 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:41:50 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:41:50 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:41:50 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:41:50 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:41:50 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:41:50 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:41:50 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:41:50 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:41:50 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:41:50 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:41:50 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:41:50 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:41:50 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:41:50 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:41:50 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:42:03 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:42:04 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:42:04 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:42:04 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:42:04 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:42:04 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:42:04 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:42:04 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:04 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:42:04 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:04 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:42:04 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:04 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:42:04 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:42:04 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:42:04 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:42:04 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:42:04 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:42:14 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:42:15 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:42:15 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:42:15 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:42:15 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:42:15 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:42:15 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:42:15 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:15 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:42:15 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:15 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:42:15 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:15 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:42:15 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:42:15 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:42:15 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:42:15 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:42:15 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:42:24 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:42:24 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:42:24 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:42:24 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:42:24 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:42:24 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:42:24 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:42:24 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:24 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:42:24 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:24 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:42:24 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:24 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:42:24 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:42:24 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:42:24 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:42:24 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:42:24 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:42:33 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:42:33 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:42:33 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:42:33 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:42:33 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:42:33 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:42:33 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:42:33 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:33 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:42:33 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:33 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:42:33 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:33 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:42:33 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:42:33 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:42:33 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:42:33 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:42:33 [main]  WARN Main.class:94 - O autocommit voltou a ser true
+17/11/2022 18:42:42 [main]  INFO Main.class:34 - Abrindo conexão com o banco de dados
+17/11/2022 18:42:43 [main]  INFO Main.class:37 - Criando a tabela conta
+17/11/2022 18:42:43 [main]  INFO Main.class:40 - Criando Prepared Statement para o insert
+17/11/2022 18:42:43 [main]  INFO Main.class:47 - Inserindo conta do(a) Daniel
+17/11/2022 18:42:43 [main]  INFO Main.class:50 - Fazendo o autocommit ser false
+17/11/2022 18:42:43 [main]  INFO Main.class:53 - Fazendo update de 10.0 na conta
+17/11/2022 18:42:43 [main]  WARN Main.class:57 - Alterando saldo da conta4565-23
+17/11/2022 18:42:43 [main]  INFO Main.class:61 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:43 [main]  WARN Main.class:65 - Alterando saldo da conta4565-23
+17/11/2022 18:42:43 [main]  INFO Main.class:68 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:43 [main]  WARN Main.class:72 - Alterando saldo da conta4565-23
+17/11/2022 18:42:43 [main]  INFO Main.class:75 - Não fazendo update de 15.0 na conta para dar erro em seguida
+17/11/2022 18:42:43 [main]  WARN Main.class:79 - Alterando saldo da conta4565-23
+17/11/2022 18:42:43 [main] ERROR Main.class:82 - criando erro para ir pro rollback
+17/11/2022 18:42:43 [main] ERROR Main.class:88 - Erro ao executar transação
+17/11/2022 18:42:43 [main]  WARN Main.class:90 - Foi executado um roolback das transações
+17/11/2022 18:42:43 [main]  INFO Main.class:93 - Fechando a conexão com o banco de dados
+17/11/2022 18:42:43 [main]  WARN Main.class:94 - O autocommit voltou a ser true
