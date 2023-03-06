@@ -22,7 +22,7 @@ Em outras palavras, os Hooks dão superpoderes aos nossos componentes funcionais
 - Estado
 - Ciclo de vida
 - Contexto
-- Referencias   ]
+- Referencias
 Em componentes funcionais, sem alterar o funcionamento e as bases do React, como a importância dos componentes, o fluxo de dados e as props.
 
 ###### Hooks permitem:
