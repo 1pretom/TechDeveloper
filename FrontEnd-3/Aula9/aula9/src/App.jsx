@@ -1,30 +1,54 @@
 import { useState } from "react"
 
 function App() {
-
+  const [id, setId] = useState("");
   const [disciplina, setDisciplina] = useState("");
   const [duracao, setDuracao] = useState("");
   const [listaDisciplinas, setListaDisciplinas] = useState([]);
 
+
   function addItem(event) {
     event.preventDefault();
-    setListaDisciplinas([
-      ...listaDisciplinas,
-      {
-        id: Date.now(),
-        disciplina: disciplina,
-        duracao,
-      }
 
-    ]);
+    if (disciplina === "" || duracao === "") {
+      alert("Por favor, preencha todos os campos")
+      return;
+    }
+
+    if (id) {
+const copiaListaDisciplinas = [...listaDisciplinas];
+const index = copiaListaDisciplinas.findIndex((item) => item.id ===id);
+copiaListaDisciplinas[index].disciplina = disciplina;
+copiaListaDisciplinas[index].duracao = duracao;
+    } else {
+      setListaDisciplinas([
+        ...listaDisciplinas,
+        {
+          id: Date.now(),
+          disciplina: disciplina,
+          duracao,
+        }
+      ]);
+    }
 
     setDisciplina("");
     setDuracao("");
+setId("");
+  }
+
+  function apagarItem(id) {
+    if (confirm("Pressione ok se tem certeza")) {
+
+      const result = listaDisciplinas.filter((item) => item.id !== id);
+      setListaDisciplinas(result)
+    }
 
   }
 
-  function apagarItem(id){
-    alert("delete " + id)
+  function preencheEstados(item) {
+    setDisciplina(item.disciplina)
+    setDuracao(item.duracao)
+    setId(item.id)
   }
 
 
@@ -37,6 +61,7 @@ function App() {
 
       <form onSubmit={addItem}>
         <input
+          required
           value={disciplina}
           onChange={(event) => setDisciplina(event.target.value)}
           placeholder="Nome da disciplina" />
@@ -49,19 +74,21 @@ function App() {
           <option value="60">60 Horas</option>
           <option value="80">80 Horas</option>
         </select>
-        <input type="submit" value="Cadastrar" />
+        <input type="submit" value={id? "Salvar" : "Cadastrar"} />
       </form>
 
 
       {listaDisciplinas.length > 0 ? (
         <ul>
-          {listaDisciplinas.map(({id, disciplina, duracao}) => (
-            <li key={id} style={{border: "1px solid #9999"}}>
-              <p>{id}</p>
-              <p>{disciplina}</p>
-              <p>{duracao}</p>
+          {listaDisciplinas.map((item) => (
+            <li key={item.id} style={{ border: "1px solid #9999" }}>
+              <p>{item.id}</p>
+              <p>{item.disciplina}</p>
+              <p>{item.duracao}</p>
 
-              <button onClick={()=>apagarItem(id)}>Apagar</button>
+              <button onClick={() => apagarItem(item.id)}>Apagar</button>
+              <button onClick={() => preencheEstados(item)}>Editar</button>
+
             </li>
           ))}
         </ul>
