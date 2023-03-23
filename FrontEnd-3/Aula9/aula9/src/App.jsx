@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 function App() {
+
   const [id, setId] = useState("");
   const [disciplina, setDisciplina] = useState("");
   const [duracao, setDuracao] = useState("");
@@ -15,12 +16,15 @@ function App() {
       return;
     }
 
-    if (id) {
-const copiaListaDisciplinas = [...listaDisciplinas];
-const index = copiaListaDisciplinas.findIndex((item) => item.id ===id);
-copiaListaDisciplinas[index].disciplina = disciplina;
-copiaListaDisciplinas[index].duracao = duracao;
-    } else {
+ /*    if (id) {
+      const copiaListaDisciplinas = [...listaDisciplinas];
+   
+      const index = copiaListaDisciplinas.findIndex((item) => item.id === id);
+      copiaListaDisciplinas[index].disciplina = disciplina;
+      copiaListaDisciplinas[index].duracao = duracao;
+    } 
+    
+    else { */
       setListaDisciplinas([
         ...listaDisciplinas,
         {
@@ -29,12 +33,26 @@ copiaListaDisciplinas[index].duracao = duracao;
           duracao,
         }
       ]);
-    }
+    /* } */
 
     setDisciplina("");
     setDuracao("");
-setId("");
+    setId("");
   }
+
+function editItem(event){
+  event.preventDefault();
+
+  const copyListaDisciplinas = [...listaDisciplinas]
+
+  const index = copyListaDisciplinas.findIndex((disciplina) => disciplina.id === id)
+
+  copyListaDisciplinas[index].disciplina = disciplina;
+  copyListaDisciplinas[index].duracao = duracao;
+
+  setListaDisciplinas(copyListaDisciplinas);
+}
+
 
   function apagarItem(id) {
     if (confirm("Pressione ok se tem certeza")) {
@@ -59,7 +77,7 @@ setId("");
       {/* <h3>Disciplina: {disciplina}</h3>
       <h3>Duração: {duracao}</h3> */}
 
-      <form onSubmit={addItem}>
+      <form onSubmit={id ? editItem : addItem}>
         <input
           required
           value={disciplina}
@@ -74,7 +92,9 @@ setId("");
           <option value="60">60 Horas</option>
           <option value="80">80 Horas</option>
         </select>
-        <input type="submit" value={id? "Salvar" : "Cadastrar"} />
+
+        <input type="submit" value={id ? "Salvar" : "Cadastrar"} />
+
       </form>
 
 
